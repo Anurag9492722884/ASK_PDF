@@ -22,12 +22,12 @@ from langchain.agents.agent_toolkits import (
 )
 
 
-theme = {
-    "backgroundColor": "rgb(77 143 217)",
-} 
-st.set_page_config(
-    **theme
-)
+# theme = {
+#     "backgroundColor": "rgb(77 143 217)",
+# } 
+# st.set_page_config(
+#     **theme
+# )
 st.title('🦜🔗 PDF-Chat: Interact with Your PDFs in a Conversational Way')
 st.subheader('Load your PDF, ask questions, and receive answers directly from the document.')
 
