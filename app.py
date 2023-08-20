@@ -63,10 +63,10 @@ loader = PyPDFLoader(temp_file_path)
 pages = loader.load_and_split()
 
 
-store = Chroma.from_documents(pages, embeddings, collection_name='Pdf')
+store = Chroma.from_documents(pages, embeddings, collection_name='collectio')
 
 vectorstore_info = VectorStoreInfo(
-    name="Pdf",
+    name="collectio",
     description=" A pdf file to answer your questions",
     vectorstore=store
 )
