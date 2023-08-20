@@ -52,7 +52,7 @@ if uploaded_file is not None:
     st.write("Full path of the uploaded file:", temp_file_path)
 
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "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"
 
 llm = OpenAI(temperature=0.1, verbose=True)
 embeddings = OpenAIEmbeddings()
